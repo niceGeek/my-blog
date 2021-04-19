@@ -1,9 +1,11 @@
+.gitignore
 #Maven
 target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 release.properties
+.mvn
 
 # Eclipse
 .project
@@ -37,3 +39,6 @@ nb-configuration.xml
 
 # Local environment
 .env
+
+# Gradle
+.gradle
