@@ -30,7 +30,11 @@ pipeline {
                     junit '**/target/surefire-reports/TEST-*.xml'
                     archiveArtifacts 'target/*.jar'
                  }
-              }
+          }
+      }
+
+      stage('Deploy') {
+        echo "Deployment should happen in this stage!"
       }
    }
 }
