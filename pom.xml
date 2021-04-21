@@ -100,7 +100,6 @@
           <includes>
             <include>**/*IT.java</include>
           </includes>
-<!--          <skipTests>${skipIntegrationTests}</skipTests>-->
         </configuration>
         <executions>
           <execution>

@@ -5,4 +5,4 @@ Feature: Test blog resource
     Given path '/hello'
     When method get
     Then status 200
-    And match response == 'Hello RESTEasy'
+    And match response == 'Willkommen zu DevOps'
